@@ -1,7 +1,7 @@
 
 # Contributing
 
-The following is a set of guidelines for contributing to Portfolio-1, which is hosted on [Github](https://minhaj-313.github.io/Facts-Website). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to Facts-Website, which is hosted on [Github](https://minhaj-313.github.io/Facts-Website). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 # How Can I Contribute?
 
@@ -11,18 +11,18 @@ In order to discuss changes, you are welcome to [open an issue](https://minhaj-3
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a Fork of the [Portfolio-1](https://minhaj-313.github.io/Facts-Website) repository. Click on the <a href="https://github.com/skpandey885/HealhUb"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+**1.** Start by making a Fork of the [Facts-Website](https://minhaj-313.github.io/Facts-Website) repository. Click on the <a href="https://github.com/skpandey885/HealhUb"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
 **2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
-git clone https://github.com/<your-github-username>/Portfolio-1
+git clone https://github.com/<your-github-username>/Facts-Website
 ```
 
-**3.** Navigate to the newly created Portfolio-1 project directory:
+**3.** Navigate to the newly created Facts-Website project directory:
 
 ```bash
-cd Portfolio-1
+cd Facts-Website
 ```
 
 **4.** Set upstream command:
@@ -90,7 +90,7 @@ git push origin YourBranchName
 
 **11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**12.** **Congratulations!** You've made your first contribution to [**Portfolio-1**](https://minhaj-313.github.io/Facts-Website/contributors)! 🙌🏼
+**12.** **Congratulations!** You've made your first contribution to [**Facts-Website**](https://minhaj-313.github.io/Facts-Website/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
