@@ -32,3 +32,46 @@
 # Author
 <a href='https://github.com/minhaj-313'> <img src='https://avatars.githubusercontent.com/u/107562768?v=4' width="100" height="100"> </a><br>
 <a href='https://github.com/minhaj-313'> Shaikh Minhaj </a>
+
+## Follow Steps 
+
+# Facts - Website 💡
+## *_Add Your Facts_* 
+
+*Start Your First Contributin*
+``
+If You are New to Contribution Then first read CONTRIBUTING.md file the follow all the Steps 
+Before Starting Contribution first You Need to Give Star to This Repository and Follow me then you can Start.
+``
+# Steps :
+- Copy the below side code and paste 
+- Paste it in index.html
+- Paste Code before This Comment (<!-- ====== Add Your Fact Before this Comment ======= -->)
+- Change Your Name 
+- Add Your Fact
+- Add Your Name and Github Id and Link
+- Then Send me Pull Request
+- Dont touch any other code.
+
+
+````sh
+  <!-- Fact (serial-number) -->
+    <div class="wrapper">
+        <div class="card-bg">
+          <div class="card">
+             <div class="card-img">
+            <img calss="headshot" src="images/favicon.png">
+          </div> 
+            <div class="card-inner">
+              <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."</p>
+            <span> Your Name - <a href="#"> Your GitHub ID <a></span>
+            </div>
+          </div>
+          
+         </div>
+      </div>
+````
+## Thank You
+
+- for more information - Read CONTRIBUTING.md file
+
