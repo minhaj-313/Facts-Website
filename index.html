@@ -31,7 +31,7 @@
 
 <body>
     <!-- ======= Navbar ======= -->
-    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <nav class="navbar navbar-dark bg-dark sticky-top" aria-label="First navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Facts - Website</a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -40,7 +40,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+            <div class="navbar-collapse collapse" id="navbarsExample01">
                 <ul class="navbar-nav me-auto mb-2">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -53,15 +53,13 @@
                             href="https://github.com/minhaj-313/Facts-Website/blob/main/CONTRIBUTING.md">Contribute</a>
                     </li>
                 </ul>
-                <form role="search">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                </form>
+                <input class="form-control" type="search" id="search" onkeyup="searchFN()" placeholder="Search" aria-label="Search">
             </div>
         </div>
     </nav>
 
     <!-- ========== Section 1 =========== -->
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" id="hero">
         <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="currentColor" class="bi bi-lightbulb"
             viewBox="0 0 16 16">
             <path
@@ -92,6 +90,9 @@
         </div>
     </div>
     <div id="facts"></div>
+    <div id="searchInfo">
+        
+    </div>
     <!-- ============================================================================ -->
 
     <!-- ========== Section 2 =========== -->
