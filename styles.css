@@ -5,6 +5,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100%;
+    margin: 0;
 }
 
 @keyframes gradient {
@@ -26,6 +27,7 @@ body {
     background: linear-gradient(+60deg, #fff2ee, #e9fff9, #ffeaf9, #ebebff) ;
     padding: 7% 0;
     font-size: 1.2rem;
+    overflow-x: hidden;
   }
   
   .genre-card {
@@ -115,7 +117,8 @@ body {
 
 @media (max-width: 900px) {
     body {
-        margin: 1rem;
+        /* margin: 1rem; */
+        text-align: center;
     }
 
     .genre-card {
@@ -125,17 +128,20 @@ body {
     }
 
     .genre-row{
-        padding: 0 70px;
+        padding: 0;
     }
 
     .card-bg {
+        text-align: center;
         width: auto;
+        padding-right: 60px;
     }
 
     .card-bg img {
         position: static;
         margin: 0 auto;
         display: block;
+        padding-bottom: 20px;
     }
 
     .card {
