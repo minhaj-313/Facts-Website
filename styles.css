@@ -8,6 +8,31 @@ body {
     margin: 0;
 }
 
+
+/*back to top button*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 37px; 
+    right: 40px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px; 
+    font-weight: bold;/* Add a dark-grey background on hover */
+  }
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

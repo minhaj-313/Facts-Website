@@ -25,7 +25,13 @@
 </head>
 
 <body>
-    <!-- ======= Navbar ======= -->
+
+    <!-- back to top button-->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+      <!-- ======= Navbar ======= -->
     <nav class="navbar navbar-dark bg-dark sticky-top" aria-label="First navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Facts - Website</a>
@@ -747,7 +753,27 @@
             </ul>
         </footer>
     </section>
+<script>
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 
 </body>
 
