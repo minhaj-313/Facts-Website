@@ -11,7 +11,7 @@ body {
 
 /*back to top button*/
 #myBtn {
-    display: none; 
+    display: none;
     position: fixed; 
     bottom: 37px; 
     right: 40px; 
@@ -212,3 +212,19 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #747474; 
   }
+  .btnss{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content:center;
+    align-items: center;
+  }
+  .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  
+ 
