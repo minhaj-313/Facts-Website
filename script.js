@@ -30,7 +30,7 @@ var iScrollAt = 20;
 var iTextPos = 0;
 var sContents = ''; 
 var iRow; 
- 
+                        
 function typewriter()
 {
  sContents =  ' ';
