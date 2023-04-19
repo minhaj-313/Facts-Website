@@ -1,3 +1,8 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -7,6 +12,7 @@ body {
   animation: gradient 15s ease infinite;
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*back to top button*/
@@ -27,7 +33,7 @@ body {
 }
 
 #myBtn:hover {
-  background-color: white;
+  background-color: rgb(196, 196, 196);
   color: black;
   font-size: 20px;
   font-weight: bold; /* Add a dark-grey background on hover */
