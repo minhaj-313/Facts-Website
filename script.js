@@ -15,7 +15,7 @@ const typewriter = () => {
   const destination = document.getElementById("typedtext");
   if (!destination) return; // exit function if element is not found
 
-  const typewriter = () => {
+  const typeWriter = () => {
     contents = " ";
     row = Math.max(0, index - scrollAt);
 
@@ -31,14 +31,14 @@ const typewriter = () => {
 
       if (index !== aText.length) {
         arrLength = aText[index].length;
-        setTimeout(typewriter, 500);
+        setTimeout(typeWriter, 500);
       }
     } else {
-      setTimeout(typewriter, speed);
+      setTimeout(typeWriter, speed);
     }
   };
 
-  typewriter();
+  typeWriter();
 };
 
 document.addEventListener("DOMContentLoaded", typewriter);
