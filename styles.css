@@ -226,3 +226,8 @@ body {
   flex-direction: column;
   margin-bottom: 25px;
 }
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: whitesmoke;
+}
