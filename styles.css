@@ -13,6 +13,10 @@ body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
+<<<<<<< HEAD
+  position: absolute;
+=======
+>>>>>>> b6a80bb38f1ab0402b85666c3e0238f22c045d54
 }
 
 /*back to top button*/
