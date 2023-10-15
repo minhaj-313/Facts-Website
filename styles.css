@@ -94,13 +94,45 @@ body {
 
 /* genre section ends */
 
-.wrapper {
-  max-width: 665px;
-  margin: 0 auto;
+.fact-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Optional: If you want to add some space between the fact tables, you can use margin */
+.fact-row .wrapper {
+  width: 1000px;
+}
+
+/* To make the fact tables responsive, you can use media queries */
+@media (max-width: 768px) {
+  .fact-row {
+      flex-direction: column;
+  }
+
+  /* If you want the fact tables to stack vertically on small screens */
+  .fact-row .wrapper {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+.fact-row .card {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  border: 4px solid #00000087;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+              0.3s box-shadow,
+              0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
 }
 
 .card-bg {
-  padding: 60px;
+  padding: 50px;
   position: relative;
   max-width: 100%;
   border-radius: 10px;
@@ -130,6 +162,7 @@ body {
 }
 
 .card p {
+  padding: 10px;
   line-height: 1.8rem;
   font-size: 20px;
   margin: 0;
@@ -230,4 +263,63 @@ body {
 .navbar-nav .dropdown:hover .dropdown-menu {
   display: block;
   background-color: whitesmoke;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.contact-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: goldenrod;
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px; /* Adjust the font size for better readability on smaller screens */
+  }
+
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: none; /* Hide the dropdown menu on hover for better mobile experience */
+  }
+
+  .genre-card {
+    margin: 10px; /* Adjust card margin for better spacing on smaller screens */
+  }
+
+  .card-bg {
+    padding-right: 40px; /* Reduce padding-right for better card display on mobile */
+  }
+
+  .card-bg img {
+    display: none; /* Hide the card image on mobile to save space */
+  }
+
+  .card {
+    left: 0; /* Reset the left position for better alignment on mobile */
+  }
+
+  .card .card-inner {
+    margin: 0; /* Reset margin for better alignment on mobile */
+  }
+
+  .footer {
+    height: auto; /* Adjust footer height for better display on mobile */
+  }
 }
