@@ -231,3 +231,14 @@ body {
   display: block;
   background-color: whitesmoke;
 }
+
+.wrapper.hide{
+  display: none;
+  visibility:hidden;
+}
+
+.buttonTab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
