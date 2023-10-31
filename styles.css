@@ -1,9 +1,11 @@
-html {
+html 
+{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
-body {
+body 
+{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #c2c2c2;
@@ -16,7 +18,8 @@ body {
 }
 
 /*back to top button*/
-#myBtn {
+#myBtn 
+{
   display: none;
   position: fixed;
   bottom: 37px;
