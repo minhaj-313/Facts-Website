@@ -1,3 +1,49 @@
+var wrapper=document.getElementsByClassName("wrapper");
+var next=document.getElementsByClassName("next");
+var prev=document.getElementsByClassName("prev");
+next=next[0];
+prev=prev[0];
+var end=10;
+var start=0;
+
+for(var i=10;i<wrapper.length;i++)
+    {
+    wrapper[i].classList.add('hide');
+    }
+
+function hide(){
+    for(var i=0;i<wrapper.length;i++)
+    {
+    wrapper[i].classList.add('hide');
+    }
+}
+next.addEventListener('click',()=>{ 
+  if(end>=wrapper.length){
+    return;
+  }
+  hide();
+  start=end;
+  end+=10;
+    for(var i=start;i<Math.min(end,wrapper.length);i++)
+   {
+     wrapper[i].classList.remove('hide');
+   }
+})
+prev.addEventListener('click',()=>{
+  if(start<=0)
+  {
+    return;
+  }
+  hide();
+  end=start;
+  start-=10;
+    for(var i=Math.max(start,0);i<end;i++)
+   {
+  wrapper[i].classList.remove('hide');
+   }
+})
+
+
 const typewriter = () => {
   const aText = [
     "This is Facts - Website, You can Read New and Unique Fact. This Website Provides you a Inspiring, Fun, Motivational, New, and many more types of Facts.",
@@ -42,3 +88,5 @@ const typewriter = () => {
 };
 
 document.addEventListener("DOMContentLoaded", typewriter);
+
+
