@@ -2,17 +2,37 @@
 <br />
 <p align="center">
   <h1 align="center">💡 Facts-Website ✨</h1>
-
-  <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. <br />
-  Site URL / Demo: 
-    <a href="https://minhaj-313.github.io/Facts-Website/">minhaj-313.github.io/Facts-Website/</a>
-    <br />
-    <br />
-    <a href="https://minhaj-313.github.io/My-Portfolio-Website/">About Me</a>
+   
   </p>
 </p>
 
+# Description
+This is Facts - Website, your go-to platform for discovering new and unique facts. Our website offers a wide range of facts including coding, food, history, and much more. Whether you're a developer looking to contribute or a regular user eager to explore fascinating facts, we have something for everyone. <br />
+
+# Table of Contents
+1. [Description](#description)
+2. [Getting Started](#getting-started)
+3. [Contribution Guidelines](#contribution-guidelines)
+4. [How To Contribute](#how-to-contribute)
+5. [Author](#author)
+
+# Getting Started
+
+To access the project, simply click on the following link: [Facts-Website](https://minhaj-313.github.io/Facts-Website/#facts).
+
+Within the website, you can:
+
+- **Scroll for Facts**: Enjoy a curated selection of interesting facts by scrolling down on the website.
+
+- **Search for Facts**: Use the search bar to find facts based on specific keywords or topics that pique your interest.
+
+- **Select Facts by Topic**: Easily filter facts by topic to discover information that aligns with your preferences.
+
+- **Contribute to the Project**: If you're a developer or enthusiast eager to share unique facts, click on the "Contribute" button on the website to start contributing.
+
+Explore the website and discover a wealth of intriguing facts!
+
+**Site URL / Demo**: [minhaj-313.github.io/Facts-Website/](https://minhaj-313.github.io/Facts-Website/)
 
 # Contribution Guidelines
 - Don't forget to star the repository!
@@ -29,21 +49,14 @@
 
  >> If you can't handle some parts of the issue, then please ask for help in the comments.
 
-# Author
-<a href='https://github.com/minhaj-313'> <img src='https://avatars.githubusercontent.com/u/107562768?v=4' width="100" height="100"> </a><br>
-<a href='https://github.com/minhaj-313'> Shaikh Minhaj </a>
-
-## Follow Steps 
-
-# Facts - Website 💡
-## *_Add Your Facts_* 
+# How To Contribute
 
 *Start Your First Contributin*
 ``
 If You are New to Contribution Then first read CONTRIBUTING.md file the follow all the Steps 
 Before Starting Contribution first You Need to Give Star to This Repository and Follow me then you can Start.
 ``
-# Steps :
+### Steps :
 - Copy the below side code and paste 
 - Paste it in index.html
 - Paste Code before This Comment (<!-- ====== Add Your Fact Before this Comment ======= -->)
@@ -71,7 +84,13 @@ Before Starting Contribution first You Need to Give Star to This Repository and 
          </div>
       </div>
 ````
-## Thank You
 
-- for more information - Read CONTRIBUTING.md file
+# Author
+<a href='https://github.com/minhaj-313'> <img src='https://avatars.githubusercontent.com/u/107562768?v=4' width="100" height="100"> </a><br>
+<a href='https://github.com/minhaj-313'> Shaikh Minhaj </a>
+
+<a href="https://minhaj-313.github.io/My-Portfolio-Website/">About Me</a>
+
+## Thank You
+For more information - Read CONTRIBUTING.md file
 
